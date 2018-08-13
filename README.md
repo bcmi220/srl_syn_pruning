@@ -17,7 +17,7 @@ If you use our code, please cite our paper as follows:
 Semantic role labeling (SRL) is dedicated to recognizing the predicate-argument structure of a sentence. Previous studies have shown syntactic information has a remarkable contribution to SRL performance. However, such perception was challenged by a few recent neural SRL models which give impressive performance without a syntactic backbone. This paper intends to quantify the importance of syntactic information to dependency SRL in deep learning framework. We propose an enhanced argument labeling model companying with an extended korder argument pruning algorithm for effectively exploiting syntactic information. Our model achieves state-of-the-art results on the CoNLL-2008, 2009 benchmarks for both English and Chinese, showing the quantitative significance of syntax to neural SRL together with a thorough empirical survey over existing models. 
 
 The framework of the proposed model:
-<center style="padding: 40px"><img width="70%" src="http://gitlab.leisure-x.com/lzc/COLING2018-Code-Seq2seq4dp/raw/dev/screenshots/model.jpg" /></center>
+<center style="padding: 40px"><img width="70%" src="https://raw.githubusercontent.com/bcmi220/srl_syn_pruning/master/screenshots/model.jpg" /></center>
  
 ## Requirements
 
