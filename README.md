@@ -34,7 +34,6 @@ python main.py --train --train_data data/conll09-english/conll09_train.dataset -
 --clip 5
 ```
 
-
 ### Step 2: Eval the trained model
 
 ```bash
