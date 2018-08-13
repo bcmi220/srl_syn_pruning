@@ -40,7 +40,7 @@ python main.py --train --train_data data/conll09-english/conll09_train.dataset -
 python main.py --eval --train_data data/conll09-english/conll09_train.dataset --valid_data data/conll09-english/conll09_dev.dataset --test_data data/conll09-english/conll09_test.dataset --ood_data data/conll09-english/conll09_test_ood.dataset --K 10 --seed 100 --tmp_path temp --model_path model --result_path result \
 --pretrain_embedding pretrain/glove.6B.100d.txt --pretrain_emb_size 100  --epochs 20 --dropout 0.1 --lr 0.001 --batch_size 64 --word_emb_size 100 --pos_emb_size 32 --lemma_emb_size 100 --use_deprel --deprel_emb_size 64 \
 --bilstm_hidden_size 512 --bilstm_num_layers 4 --valid_step 1000 --use_highway --highway_num_layers 10 --use_flag_emb --flag_emb_size 16 --use_elmo --elmo_emb_size 300 --elmo_options pretrain/elmo_2x4096_512_2048cnn_2xhighway_options.json --elmo_weight pretrain/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5
---clip 5 --model model/best_88.04.pkl
+--clip 5 --model model/xxx.pkl
 ```
 
 # Notes
